@@ -1,11 +1,12 @@
 <template>
   <section class="container">
-    <div>
-      <app-logo />
-      <app-menu />
-      <h1 class="title">nuxt-sandbox</h1>
-      <h2 class="subtitle">Nuxt.js project</h2>
-    </div>
+    <app-menu />
+    <h1>About</h1>
+    <p>It is a location save sanbox app</p>
+    <p>TODO:</p>
+    <ul>
+      <li>Draw map on /map</li>
+    </ul>
   </section>
 </template>
 
@@ -46,6 +47,10 @@ export default {
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
+}
+
+.links {
+  padding-top: 15px;
 }
 </style>
 

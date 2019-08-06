@@ -1,6 +1,5 @@
-<<<<<<< HEAD
 # nuxt-sandbox
-=======
+
 # nuxt-sandbox
 
 > Nuxt.js project
